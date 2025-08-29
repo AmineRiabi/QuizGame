@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imgs/logo/logo.png">
+    <title>quiz</title>
+</head>
+<body>
+    <div class="initial-content">
+        <div class="image">
+            <img src="imgs/logo/logo.png" alt="logo">
+        </div>
+        <button id="start">commencer</button>
+        <button class="exit">sortie</button>
+    </div>
+    <section class="container">
+        <div class="header-container">
+            <div class="reminder">
+                Le temps est écoulé !
+            </div>
+            <div class="time">
+                <div class="circulation-progress">
+                    <div class="time-content">
+                        <span>
+                            30
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="score">score: <span>0</span></div>
+        </div>
+        <div class="flag-container">
+            <img src="imgs/flags/1958-moroccan-flag.webp" id="flag" alt="flags">
+        </div>
+        <div class="choice-container">
+            <h2>quel est le nom de la capitale ?</h2>
+            <div class="section-top">
+                <button class="choice-button" data-value="france">paris</button>
+                <button class="choice-button"  data-value="italy">rome</button>
+            </div>
+            <div class="section-bottom">
+                <button class="choice-button"  data-value="spain">madrid</button>
+                <button class="choice-button"  data-value="morocco">rabat</button>
+            </div>
+            <div>
+                <button class="next-button">suivante &#10132;</button>
+            </div>
+        </div>
+    </section>
+    <div class="result-content">
+        <div class="gif-content">
+            <img src="" alt="gif">
+        </div>
+        <h1>tu as predu</h1>
+        <div class="final-score">score: <span>0</span></div>
+        <button id="repeated">répéter &#10226;</button>
+        <button class="exit">sortie</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
